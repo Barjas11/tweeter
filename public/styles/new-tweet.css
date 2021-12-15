@@ -1,0 +1,17 @@
+section.new-tweet {
+  width: 100%;
+  display: none;
+  font-family: "Sourse sans pro", "sans-serif";
+
+}
+
+textarea {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #545149;
+  background-color: #f4f1ec;
+  display: flex;
+  align-items: center;
+}
