@@ -39,3 +39,13 @@ $(document).ready(() => {
         </article>`;
     return tweetBody;
   };
+
+
+   // load tweet function
+   const loadtweets = function() {
+    $("#tweetContainer").empty();
+    // ajax GET request
+    $.get("/tweets", function(data) {
+      renderTweets(data);
+    });
+  };
