@@ -15,3 +15,27 @@ textarea {
   display: flex;
   align-items: center;
 }
+
+
+
+div.PostTweet {
+  padding: 5px 0px ;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Bungee", "sans-serif";
+  
+}
+
+.button {
+  background-color: #4056a1;
+  border: none;
+  color: #ffffff;
+}
+
+.errorMessage {
+  padding: 10px;
+  text-align: center;
+  border: 3px solid red;
+  color: red;
+  display: none;
+}
