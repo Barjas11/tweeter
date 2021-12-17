@@ -14,12 +14,19 @@ html {
  * Global layout stuff
  */
 
-body {
+body.main {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: "Source Sans Pro", "sans-serif";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+/*
+* Additional CSS can be defined below or in other CSS files, as per instructions
+*/
 
 main {
   width: 90%;
@@ -28,6 +35,19 @@ main {
   justify-content: center;
   font-family: "Source Sans Pro", "sans-serif";
 }
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
+
+@media only screen and (min-width: 768px) {
+  body.main{
+
+    margin: 0 auto;
+    max-width: 1700px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  main {
+    margin-top: 200px;
+    width: 100%;
+  }
+}
