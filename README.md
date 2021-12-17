@@ -6,6 +6,10 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Screen shots
 
+https://github.com/Barjas11/tweeter/blob/master/docs/Tweete1.png
+
+https://github.com/Barjas11/tweeter/blob/master/docs/Tweete2.png
+
 ## Getting Started
 
 1. Fork this repository, then clone your fork of this repository.
