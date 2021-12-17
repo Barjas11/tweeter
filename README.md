@@ -6,9 +6,9 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Screen shots
 
-https://github.com/Barjas11/tweeter/blob/master/docs/Tweete1.png
+!["ScreenShot of tweet compose box"] (https://github.com/Barjas11/tweeter/blob/master/docs/tweet1.png)
 
-https://github.com/Barjas11/tweeter/blob/master/docs/Tweete2.png
+!["ScreenShot of tweets "] (https://github.com/Barjas11/tweeter/blob/master/docs/tweet2.png)
 
 ## Getting Started
 
